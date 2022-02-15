@@ -77,7 +77,7 @@ class TestDialog(QtWidgets.QDialog):
         self.copy_sl_mesh.setStringList(self.slCopyMeshList)
         self.copy_skin_view.setModel(self.copy_sl_mesh)
         return self.slCopyMeshList
-    def connect_mesh(self):
+    def connect_mesh(self): #copy skin的功能暂时没写,先用关联替代
         for i1,i2 in zip(self.ls_list,self.slCopyMeshList):
             mc.connectAttr(i1+".translateX",i2+".translateX")
 
