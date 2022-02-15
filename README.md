@@ -1,0 +1,3 @@
+# kazusa_for_python
+记录学习过程中的写的代码
+在maya中,硬表面模型快速高模copy低模skin
